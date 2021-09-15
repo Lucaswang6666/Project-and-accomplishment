@@ -1,0 +1,2888 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.2">
+  <Nodes>
+    <Node ToolID="189">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="678" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="12">C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp</File>
+          <FormatSpecificOptions>
+            <Projection />
+            <AllStrings>False</AllStrings>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>LIMADMIN.shp</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="MUNID" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="Int32" />
+            <Field name="CODEID" size="20" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="V_WString" />
+            <Field name="CODEMAMROT" size="10" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="WString" />
+            <Field name="NOM" size="100" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="V_WString" />
+            <Field name="TYPE" size="20" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="V_WString" />
+            <Field name="ABREV" size="10" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="WString" />
+            <Field name="NUM" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="Int32" />
+            <Field name="AIRE" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="Double" />
+            <Field name="PERIM" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="Double" />
+            <Field name="SpatialObj" size="2147483647" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="SpatialObj" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="190">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="822" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="CODEID" selected="True" />
+            <Field field="CODEMAMROT" selected="True" />
+            <Field field="NOM" selected="True" />
+            <Field field="TYPE" selected="True" />
+            <Field field="ABREV" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="MUNID" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="Int32" />
+            <Field name="CODEID" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="Byte" />
+            <Field name="CODEMAMROT" size="5" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="String" />
+            <Field name="NOM" size="40" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="V_String" />
+            <Field name="TYPE" size="14" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="String" />
+            <Field name="ABREV" size="2" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="String" />
+            <Field name="NUM" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="Int32" />
+            <Field name="AIRE" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="Double" />
+            <Field name="PERIM" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="Double" />
+            <Field name="SpatialObj" size="2147483647" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="SpatialObj" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="191">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="990" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="CODEMAMROT" selected="True" />
+            <SelectField field="NOM" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="192">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="680" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\time.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>time.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Year" size="254" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\time.csv" type="V_WString" />
+            <Field name="Month" size="254" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\time.csv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="193">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
+        <Position x="1124" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <CartesianMode>Allow</CartesianMode>
+          <SelectConfiguration>
+            <Configuration outputConnection="Output">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+    </Node>
+    <Node ToolID="194">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1268" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Kiet\AppData\Local\Temp\Engine_7764_7f14eaf3e31c467ea978978875d86900_\Engine_7360_a3611b22e22d4e8ca925d85ae7de6bfd_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="195">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="824" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="Year" selected="True" />
+            <Field field="Month" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Year" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\time.csv" type="Int16" />
+            <Field name="Month" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\time.csv" type="Byte" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="196">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="990" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Year" selected="True" type="Int64" size="8" />
+            <SelectField field="Month" selected="True" type="Int64" size="8" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="176">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="53" y="245" width="889" height="329" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Intervention dataset</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="2">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="77" y="294" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="12">C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\interventions-sim.shp</File>
+              <FormatSpecificOptions>
+                <Projection />
+                <AllStrings>False</AllStrings>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>interventions-sim.shp</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="INCIDENT_N" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\interventions-sim.shp" type="Int64" />
+                <Field name="CREATION_D" size="80" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\interventions-sim.shp" type="V_WString" />
+                <Field name="INCIDENT_T" size="80" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\interventions-sim.shp" type="V_WString" />
+                <Field name="DESCRIPTIO" size="80" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\interventions-sim.shp" type="V_WString" />
+                <Field name="CASERNE" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\interventions-sim.shp" type="Int64" />
+                <Field name="NOM_VILLE" size="80" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\interventions-sim.shp" type="V_WString" />
+                <Field name="NOM_ARROND" size="80" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\interventions-sim.shp" type="V_WString" />
+                <Field name="DIVISION" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\interventions-sim.shp" type="Int64" />
+                <Field name="NOMBRE_UNI" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\interventions-sim.shp" type="Double" />
+                <Field name="CIV" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\interventions-sim.shp" type="Double" />
+                <Field name="MTM8_X" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\interventions-sim.shp" type="Double" />
+                <Field name="MTM8_Y" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\interventions-sim.shp" type="Double" />
+                <Field name="LONGITUDE" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\interventions-sim.shp" type="Double" />
+                <Field name="LATITUDE" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\interventions-sim.shp" type="Double" />
+                <Field name="SpatialObj" size="2147483647" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\interventions-sim.shp" type="SpatialObj" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="45">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="306" y="294" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="Replace([CREATION_D], 'T', ' ')" field="Creation Date" size="19" type="DateTime" />
+                <FormulaField expression="IIF([NOM_VILLE]==&quot;Montréal&quot;, [NOM_ARROND], [NOM_VILLE])" field="Boroughs" size="1073741823" type="V_WString" />
+                <FormulaField expression="IIF(([DESCRIPTIO]==&quot;AUTREFEU&quot;) OR ([DESCRIPTIO]==&quot;INCENDIE&quot;), 1, 0)" field="Fire_Incident" size="8" type="Int64" />
+                <FormulaField expression="DateTimeYear([Creation Date])" field="Year" size="8" type="Int64" />
+                <FormulaField expression="DateTimeMonth([Creation Date])" field="Month" size="8" type="Int64" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Creation Date = Replace([CREATION_D], 'T', ' ')
+Boroughs = IIF([NOM_VILLE]=="Mon...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="46">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+            <Position x="426" y="294" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Fields>
+                <Field field="CREATION_D" selected="True" />
+                <Field field="INCIDENT_T" selected="True" />
+                <Field field="DESCRIPTIO" selected="True" />
+                <Field field="NOM_VILLE" selected="True" />
+                <Field field="NOM_ARROND" selected="True" />
+                <Field field="Boroughs" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </Fields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="INCIDENT_N" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\interventions-sim.shp" type="Int64" />
+                <Field name="CREATION_D" size="19" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\interventions-sim.shp" type="String" />
+                <Field name="INCIDENT_T" size="30" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\interventions-sim.shp" type="V_String" />
+                <Field name="DESCRIPTIO" size="17" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\interventions-sim.shp" type="V_String" />
+                <Field name="CASERNE" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\interventions-sim.shp" type="Int64" />
+                <Field name="NOM_VILLE" size="20" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\interventions-sim.shp" type="V_String" />
+                <Field name="NOM_ARROND" size="42" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\interventions-sim.shp" type="V_String" />
+                <Field name="DIVISION" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\interventions-sim.shp" type="Int64" />
+                <Field name="NOMBRE_UNI" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\interventions-sim.shp" type="Double" />
+                <Field name="CIV" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\interventions-sim.shp" type="Double" />
+                <Field name="MTM8_X" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\interventions-sim.shp" type="Double" />
+                <Field name="MTM8_Y" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\interventions-sim.shp" type="Double" />
+                <Field name="LONGITUDE" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\interventions-sim.shp" type="Double" />
+                <Field name="LATITUDE" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\interventions-sim.shp" type="Double" />
+                <Field name="SpatialObj" size="2147483647" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\interventions-sim.shp" type="SpatialObj" />
+                <Field name="Creation Date" source="Formula: Replace([CREATION_D], 'T', ' ')" type="DateTime" />
+                <Field name="Boroughs" size="42" source="Formula: IIF([NOM_VILLE]==&quot;Montréal&quot;, [NOM_ARROND], [NOM_VILLE])" type="V_String" />
+                <Field name="Fire_Incident" source="Formula: IIF(([DESCRIPTIO]==&quot;AUTREFEU&quot;) OR ([DESCRIPTIO]==&quot;INCENDIE&quot;), 1, 0)" type="Int64" />
+                <Field name="Year" source="Formula: DateTimeYear([Creation Date])" type="Int64" />
+                <Field name="Month" source="Formula: DateTimeMonth([Creation Date])" type="Int64" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+        </Node>
+        <Node ToolID="50">
+          <GuiSettings>
+            <Position x="522" y="294" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Check Box (135)">False</Value>
+              <Value name="Check Box (136)">False</Value>
+              <Value name="List Box (11)">"INCIDENT_T","NOMBRE_UNI"</Value>
+              <Value name="Check Box (84)">False</Value>
+              <Value name="Check Box (117)">True</Value>
+              <Value name="Check Box (15)">True</Value>
+              <Value name="Check Box (109)">False</Value>
+              <Value name="Check Box (122)">False</Value>
+              <Value name="Check Box (53)">False</Value>
+              <Value name="Check Box (58)">False</Value>
+              <Value name="Check Box (70)">False</Value>
+              <Value name="Check Box (77)">False</Value>
+              <Value name="Drop Down (81)">upper</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Cleanse.yxmc" />
+        </Node>
+        <Node ToolID="83">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="630" y="294" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="INCIDENT_N" selected="True" />
+                <SelectField field="Creation Date" selected="True" />
+                <SelectField field="CREATION_D" selected="False" />
+                <SelectField field="Year" selected="True" />
+                <SelectField field="Month" selected="True" />
+                <SelectField field="INCIDENT_T" selected="False" />
+                <SelectField field="DESCRIPTIO" selected="False" />
+                <SelectField field="CASERNE" selected="True" />
+                <SelectField field="Boroughs" selected="True" />
+                <SelectField field="NOM_VILLE" selected="False" />
+                <SelectField field="NOM_ARROND" selected="False" />
+                <SelectField field="DIVISION" selected="False" />
+                <SelectField field="NOMBRE_UNI" selected="True" />
+                <SelectField field="Fire_Incident" selected="True" />
+                <SelectField field="CIV" selected="False" />
+                <SelectField field="MTM8_X" selected="False" />
+                <SelectField field="MTM8_Y" selected="False" />
+                <SelectField field="LONGITUDE" selected="False" />
+                <SelectField field="LATITUDE" selected="False" />
+                <SelectField field="SpatialObj" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="90">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="185" y="294" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Operator>NotContains</Operator>
+                <Field>NOM_VILLE</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2021-08-08 20:22:20</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <Operand>Indéterminé</Operand>
+                  <StartDate>2021-08-08 20:22:20</StartDate>
+                  <EndDate>2021-08-08 20:22:20</EndDate>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>!Contains([NOM_VILLE],"Indéterminé")</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="44">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="77" y="474" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="12">C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp</File>
+              <FormatSpecificOptions>
+                <Projection />
+                <AllStrings>False</AllStrings>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>LIMADMIN.shp</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="MUNID" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="Int32" />
+                <Field name="CODEID" size="20" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="V_WString" />
+                <Field name="CODEMAMROT" size="10" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="WString" />
+                <Field name="NOM" size="100" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="V_WString" />
+                <Field name="TYPE" size="20" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="V_WString" />
+                <Field name="ABREV" size="10" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="WString" />
+                <Field name="NUM" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="Int32" />
+                <Field name="AIRE" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="Double" />
+                <Field name="PERIM" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="Double" />
+                <Field name="SpatialObj" size="2147483647" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="SpatialObj" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="71">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+            <Position x="426" y="474" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Fields>
+                <Field field="CODEID" selected="True" />
+                <Field field="CODEMAMROT" selected="True" />
+                <Field field="NOM" selected="True" />
+                <Field field="TYPE" selected="True" />
+                <Field field="ABREV" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </Fields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="MUNID" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="Int32" />
+                <Field name="CODEID" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="Byte" />
+                <Field name="CODEMAMROT" size="5" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="String" />
+                <Field name="NOM" size="40" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="V_String" />
+                <Field name="TYPE" size="14" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="String" />
+                <Field name="ABREV" size="2" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="String" />
+                <Field name="NUM" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="Int32" />
+                <Field name="AIRE" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="Double" />
+                <Field name="PERIM" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="Double" />
+                <Field name="SpatialObj" size="2147483647" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="SpatialObj" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+        </Node>
+        <Node ToolID="75">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="630" y="474" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="CODEMAMROT" selected="True" />
+                <SelectField field="NOM" selected="True" />
+                <SelectField field="SpatialObj" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="97">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.SpatialMatch.SpatialMatch">
+            <Position x="750" y="354" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Target SpatialObj="SpatialObj" />
+              <Universe SpatialObj="SpatialObj" />
+              <Method method="Within" />
+              <SelectConfiguration>
+                <Configuration outputConnection="Matched">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Target_INCIDENT_N" selected="True" input="Target_" />
+                    <SelectField field="Target_Creation Date" selected="True" input="Target_" />
+                    <SelectField field="Target_Year" selected="True" input="Target_" />
+                    <SelectField field="Target_Month" selected="True" input="Target_" />
+                    <SelectField field="Target_CASERNE" selected="True" input="Target_" />
+                    <SelectField field="Target_Boroughs" selected="True" input="Target_" />
+                    <SelectField field="Target_NOMBRE_UNI" selected="True" input="Target_" />
+                    <SelectField field="Target_Fire_Incident" selected="True" input="Target_" />
+                    <SelectField field="Universe_CODEMAMROT" selected="True" input="Universe_" />
+                    <SelectField field="Universe_NOM" selected="True" input="Universe_" />
+                    <SelectField field="Universe_SpatialObj" selected="False" rename="Universe_SpatialObj" input="Universe_" />
+                    <SelectField field="*Unknown" selected="False" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>SpatialObj Where Target Within Universe SpatialObj</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSpatialMatch" />
+        </Node>
+        <Node ToolID="115">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="858" y="342" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="CODEMAMROT" action="GroupBy" rename="CODEMAMROT" />
+                <SummarizeField field="NOM" action="GroupBy" rename="NOM" />
+                <SummarizeField field="Year" action="GroupBy" rename="Year" />
+                <SummarizeField field="Month" action="GroupBy" rename="Month" />
+                <SummarizeField field="NOMBRE_UNI" action="Sum" rename="Sum_NOMBRE_UNI" />
+                <SummarizeField field="Fire_Incident" action="Sum" rename="Sum_Fire_Incident" />
+                <SummarizeField field="Fire_Incident" action="Count" rename="Count_Incident" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="205">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="1137" y="416" width="883" height="264" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Merging Intervention and Crime datasets</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="127">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.JoinMultiple.JoinMultiple">
+            <Position x="1162" y="488" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <JoinByRecPos value="False" />
+              <JoinFields>
+                <JoinInfo connection="#1">
+                  <Field field="CODEMAMROT" />
+                  <Field field="Year" />
+                  <Field field="Month" />
+                </JoinInfo>
+                <JoinInfo connection="#2">
+                  <Field field="CODEMAMROT" />
+                  <Field field="Year" />
+                  <Field field="Month" />
+                </JoinInfo>
+                <JoinInfo connection="#3">
+                  <Field field="CODEMAMROT" />
+                  <Field field="Year" />
+                  <Field field="Month" />
+                </JoinInfo>
+              </JoinFields>
+              <CartesianMode>Error</CartesianMode>
+              <OutputJoinOnly value="False" />
+              <SelectConfiguration>
+                <Configuration outputConnection="Output">
+                  <OrderChanged value="True" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Input_#3_CODEMAMROT" selected="True" />
+                    <SelectField field="Input_#1_CODEMAMROT" selected="False" />
+                    <SelectField field="Input_#3_NOM" selected="True" rename="Boroughs" />
+                    <SelectField field="Input_#1_NOM" selected="False" rename="Boroughs" />
+                    <SelectField field="Input_#3_Year" selected="True" />
+                    <SelectField field="Input_#1_Year" selected="False" />
+                    <SelectField field="Input_#3_Month" selected="True" />
+                    <SelectField field="Input_#1_Month" selected="False" />
+                    <SelectField field="Input_#1_Sum_NOMBRE_UNI" selected="True" />
+                    <SelectField field="Input_#1_Sum_Fire_Incident" selected="True" />
+                    <SelectField field="Input_#1_Count_Incident" selected="True" />
+                    <SelectField field="Input_#2_CODEMAMROT" selected="True" rename="Crime_CODEMAMROT" />
+                    <SelectField field="Input_#2_Year" selected="True" rename="Crime_Year" />
+                    <SelectField field="Input_#2_Month" selected="True" rename="Crime_Month" />
+                    <SelectField field="Input_#2_Count" selected="True" rename="Count_Crime" />
+                    <SelectField field="Input_#2_NOM" selected="True" rename="Crime_Boroughs" />
+                    <SelectField field="*Unknown" selected="False" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoinMultiple" />
+        </Node>
+        <Node ToolID="129">
+          <GuiSettings>
+            <Position x="1274" y="489" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Check Box (135)">False</Value>
+              <Value name="Check Box (136)">False</Value>
+              <Value name="List Box (11)">"Sum_NOMBRE_UNI","Sum_Fire_Incident","Count_Incident","Crime_CODEMAMROT","Count_Crime"</Value>
+              <Value name="Check Box (84)">False</Value>
+              <Value name="Check Box (117)">True</Value>
+              <Value name="Check Box (15)">False</Value>
+              <Value name="Check Box (109)">False</Value>
+              <Value name="Check Box (122)">False</Value>
+              <Value name="Check Box (53)">False</Value>
+              <Value name="Check Box (58)">False</Value>
+              <Value name="Check Box (70)">False</Value>
+              <Value name="Check Box (77)">False</Value>
+              <Value name="Drop Down (81)">upper</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Cleanse.yxmc" />
+        </Node>
+        <Node ToolID="131">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+            <Position x="1390" y="489" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SortInfo locale="1033">
+                <Field field="Boroughs" order="Ascending" />
+                <Field field="Year" order="Ascending" />
+                <Field field="Month" order="Ascending" />
+              </SortInfo>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Boroughs - Ascending
+Year - Ascending
+Month - Ascending</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+        </Node>
+        <Node ToolID="153">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="1498" y="489" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Operator>IsNull</Operator>
+                <Field>CODEMAMROT</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2021-08-09 22:35:04</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <Operand>
+                  </Operand>
+                  <StartDate>2021-08-09 22:35:04</StartDate>
+                  <EndDate>2021-08-09 22:35:04</EndDate>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>IsNull([CODEMAMROT])</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="154">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="1606" y="465" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="CODEMAMROT" selected="False" />
+                <SelectField field="Crime_CODEMAMROT" selected="True" rename="CODEMAMROT" />
+                <SelectField field="Crime_Boroughs" selected="True" rename="Boroughs" />
+                <SelectField field="Boroughs" selected="False" />
+                <SelectField field="Crime_Year" selected="True" rename="Year" />
+                <SelectField field="Year" selected="False" />
+                <SelectField field="Crime_Month" selected="True" rename="Month" />
+                <SelectField field="Month" selected="False" />
+                <SelectField field="Sum_NOMBRE_UNI" selected="True" />
+                <SelectField field="Sum_Fire_Incident" selected="True" />
+                <SelectField field="Count_Incident" selected="True" />
+                <SelectField field="Count_Crime" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="155">
+          <GuiSettings>
+            <Position x="1690" y="465" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Check Box (135)">False</Value>
+              <Value name="Check Box (136)">False</Value>
+              <Value name="List Box (11)">"Sum_NOMBRE_UNI","Sum_Fire_Incident","Count_Incident"</Value>
+              <Value name="Check Box (84)">False</Value>
+              <Value name="Check Box (117)">True</Value>
+              <Value name="Check Box (15)">False</Value>
+              <Value name="Check Box (109)">False</Value>
+              <Value name="Check Box (122)">False</Value>
+              <Value name="Check Box (53)">False</Value>
+              <Value name="Check Box (58)">False</Value>
+              <Value name="Check Box (70)">False</Value>
+              <Value name="Check Box (77)">False</Value>
+              <Value name="Drop Down (81)">upper</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Cleanse.yxmc" />
+        </Node>
+        <Node ToolID="156">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+            <Position x="1798" y="489" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ByName_ErrorMode>Warning</ByName_ErrorMode>
+              <ByName_OutputMode>All</ByName_OutputMode>
+              <Mode>ByName</Mode>
+              <SetOutputOrder value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+        </Node>
+        <Node ToolID="158">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="1606" y="513" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="CODEMAMROT" selected="True" />
+                <SelectField field="Boroughs" selected="True" />
+                <SelectField field="Year" selected="True" />
+                <SelectField field="Month" selected="True" />
+                <SelectField field="Sum_NOMBRE_UNI" selected="True" />
+                <SelectField field="Sum_Fire_Incident" selected="True" />
+                <SelectField field="Count_Incident" selected="True" />
+                <SelectField field="Count_Crime" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="159">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+            <Position x="1894" y="489" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SortInfo locale="1033">
+                <Field field="CODEMAMROT" order="Ascending" />
+                <Field field="Boroughs" order="Ascending" />
+                <Field field="Year" order="Ascending" />
+                <Field field="Month" order="Ascending" />
+              </SortInfo>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>CODEMAMROT - Ascending
+Boroughs - Ascending
+Year - Ascending
+Month - Ascending</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="206">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="2073" y="668" width="1357" height="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Merging overall datasets and Output file to Python</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="162">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="2266" y="729" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="CODEMAMROT" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="CODEMAMROT" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Left_CODEMAMROT" selected="True" input="Left_" />
+                    <SelectField field="Left_Boroughs" selected="True" input="Left_" />
+                    <SelectField field="Left_Year" selected="True" input="Left_" />
+                    <SelectField field="Left_Month" selected="True" input="Left_" />
+                    <SelectField field="Left_Sum_NOMBRE_UNI" selected="True" input="Left_" />
+                    <SelectField field="Left_Sum_Fire_Incident" selected="True" input="Left_" />
+                    <SelectField field="Left_Count_Incident" selected="True" input="Left_" />
+                    <SelectField field="Left_Count_Crime" selected="True" input="Left_" />
+                    <SelectField field="Right_CODEMAMROT" selected="False" rename="Right_CODEMAMROT" input="Right_" />
+                    <SelectField field="Right_Sum_ETAGE_HORS_SOL" selected="True" input="Right_" />
+                    <SelectField field="Right_Sum_NOMBRE_LOGEMENT" selected="True" input="Right_" />
+                    <SelectField field="Right_Avg_ANNEE_CONSTRUCTION" selected="True" input="Right_" />
+                    <SelectField field="Right_Sum_SUPERFICIE_TERRAIN" selected="True" input="Right_" />
+                    <SelectField field="Right_Sum_SUPERFICIE_BATIMENT" selected="True" input="Right_" />
+                    <SelectField field="*Unknown" selected="False" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="164">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="2098" y="813" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="12">C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp</File>
+              <FormatSpecificOptions>
+                <Projection />
+                <AllStrings>False</AllStrings>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>LIMADMIN.shp</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="MUNID" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="Int32" />
+                <Field name="CODEID" size="20" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="V_WString" />
+                <Field name="CODEMAMROT" size="10" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="WString" />
+                <Field name="NOM" size="100" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="V_WString" />
+                <Field name="TYPE" size="20" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="V_WString" />
+                <Field name="ABREV" size="10" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="WString" />
+                <Field name="NUM" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="Int32" />
+                <Field name="AIRE" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="Double" />
+                <Field name="PERIM" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="Double" />
+                <Field name="SpatialObj" size="2147483647" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="SpatialObj" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="165">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+            <Position x="2218" y="812" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Fields>
+                <Field field="CODEID" selected="True" />
+                <Field field="CODEMAMROT" selected="True" />
+                <Field field="NOM" selected="True" />
+                <Field field="TYPE" selected="True" />
+                <Field field="ABREV" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </Fields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="MUNID" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="Int32" />
+                <Field name="CODEID" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="Byte" />
+                <Field name="CODEMAMROT" size="5" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="String" />
+                <Field name="NOM" size="40" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="V_String" />
+                <Field name="TYPE" size="14" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="String" />
+                <Field name="ABREV" size="2" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="String" />
+                <Field name="NUM" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="Int32" />
+                <Field name="AIRE" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="Double" />
+                <Field name="PERIM" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="Double" />
+                <Field name="SpatialObj" size="2147483647" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="SpatialObj" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+        </Node>
+        <Node ToolID="166">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="2338" y="813" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="CODEMAMROT" selected="True" />
+                <SelectField field="SpatialObj" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="167">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="2421" y="740" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="CODEMAMROT" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="CODEMAMROT" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Left_CODEMAMROT" selected="True" input="Left_" />
+                    <SelectField field="Left_Boroughs" selected="True" input="Left_" />
+                    <SelectField field="Left_Year" selected="True" input="Left_" />
+                    <SelectField field="Left_Month" selected="True" input="Left_" />
+                    <SelectField field="Left_Sum_NOMBRE_UNI" selected="True" input="Left_" />
+                    <SelectField field="Left_Sum_Fire_Incident" selected="True" input="Left_" />
+                    <SelectField field="Left_Count_Incident" selected="True" input="Left_" />
+                    <SelectField field="Left_Count_Crime" selected="True" input="Left_" />
+                    <SelectField field="Left_Sum_ETAGE_HORS_SOL" selected="True" input="Left_" />
+                    <SelectField field="Left_Sum_NOMBRE_LOGEMENT" selected="True" input="Left_" />
+                    <SelectField field="Left_Avg_ANNEE_CONSTRUCTION" selected="True" input="Left_" />
+                    <SelectField field="Left_Sum_SUPERFICIE_TERRAIN" selected="True" input="Left_" />
+                    <SelectField field="Left_Sum_SUPERFICIE_BATIMENT" selected="True" input="Left_" />
+                    <SelectField field="Right_CODEMAMROT" selected="False" rename="Right_CODEMAMROT" input="Right_" />
+                    <SelectField field="Right_SpatialObj" selected="True" input="Right_" />
+                    <SelectField field="*Unknown" selected="False" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="171">
+          <GuiSettings>
+            <Position x="3226" y="741" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="do target">False</Value>
+              <Value name="target">Sum_Fire_Incident</Value>
+              <Value name="target level" />
+              <Value name="use fields">"Year","Month","Sum_NOMBRE_UNI","Sum_Fire_Incident","Count_Incident","Count_Crime","Sum_ETAGE_HORS_SOL","Sum_NOMBRE_LOGEMENT","Sum_SUPERFICIE_TERRAIN","Sum_SUPERFICIE_BATIMENT"</Value>
+              <Value name="Pearson">True</Value>
+              <Value name="Spearman">False</Value>
+              <Value name="Hoeffding">False</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\Association_Analysis.yxmc" />
+        </Node>
+        <Node ToolID="172">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="3346" y="717" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\Kiet\AppData\Local\Temp\Engine_7764_7f14eaf3e31c467ea978978875d86900_\Engine_7360_cca6ffe839e647e2ac0e6eda4e2de544_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Report</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="173">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="3346" y="777" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\Kiet\AppData\Local\Temp\Engine_7764_7f14eaf3e31c467ea978978875d86900_\Engine_7360_43cf30c68d6540d58d9012552d384ba6_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Report</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="174">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="2529" y="740" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="([Year] + [Month]/12) - [Avg_ANNEE_CONSTRUCTION]" field="Building_Life" size="8" type="Double" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[Building_Life = ([Year] + [Month]/12) - [Avg_ANNEE_CONSTRUCTION]
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="175">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="2625" y="740" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="CODEMAMROT" selected="True" />
+                <SelectField field="Boroughs" selected="True" />
+                <SelectField field="Year" selected="True" />
+                <SelectField field="Month" selected="True" />
+                <SelectField field="Sum_NOMBRE_UNI" selected="True" />
+                <SelectField field="Sum_Fire_Incident" selected="True" />
+                <SelectField field="Count_Incident" selected="True" />
+                <SelectField field="Count_Crime" selected="True" />
+                <SelectField field="Sum_ETAGE_HORS_SOL" selected="True" />
+                <SelectField field="Sum_NOMBRE_LOGEMENT" selected="True" />
+                <SelectField field="Building_Life" selected="True" />
+                <SelectField field="Avg_ANNEE_CONSTRUCTION" selected="False" />
+                <SelectField field="Sum_SUPERFICIE_TERRAIN" selected="True" />
+                <SelectField field="Sum_SUPERFICIE_BATIMENT" selected="True" />
+                <SelectField field="SpatialObj" selected="True" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="180">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="3176" y="834" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="0">C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\Outputs\Project_Output_20210831.csv</File>
+              <Passwords />
+              <FormatSpecificOptions>
+                <LineEndStyle>CRLF</LineEndStyle>
+                <Delimeter>,</Delimeter>
+                <ForceQuotes>False</ForceQuotes>
+                <HeaderRow>True</HeaderRow>
+                <CodePage>28591</CodePage>
+                <WriteBOM>True</WriteBOM>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Project_Output_20210831.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+        <Node ToolID="197">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+            <Position x="2732" y="738" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <UpdateField value="False" />
+              <UpdateField_Name />
+              <CreateField_Name>Count_Incident_1</CreateField_Name>
+              <CreateField_Type>Int64</CreateField_Type>
+              <CreateField_Size>8</CreateField_Size>
+              <OtherRows>NULL</OtherRows>
+              <NumRows value="1" />
+              <Expression>[Row-1:Count_Incident]</Expression>
+              <GroupByFields>
+                <Field field="CODEMAMROT" />
+              </GroupByFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[Row-1:Count_Incident]</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+        </Node>
+        <Node ToolID="199">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+            <Position x="2840" y="738" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <UpdateField value="False" />
+              <UpdateField_Name>CODEMAMROT</UpdateField_Name>
+              <CreateField_Name>Count_Crime_1</CreateField_Name>
+              <CreateField_Type>Int32</CreateField_Type>
+              <CreateField_Size>4</CreateField_Size>
+              <OtherRows>NULL</OtherRows>
+              <NumRows value="1" />
+              <Expression>[Row-1:Count_Crime]</Expression>
+              <GroupByFields>
+                <Field field="CODEMAMROT" />
+              </GroupByFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[Row-1:Count_Crime]</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+        </Node>
+        <Node ToolID="202">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="3092" y="738" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="CODEMAMROT" selected="True" />
+                <SelectField field="Boroughs" selected="True" />
+                <SelectField field="Year" selected="True" />
+                <SelectField field="Month" selected="True" />
+                <SelectField field="Sum_NOMBRE_UNI" selected="True" />
+                <SelectField field="Sum_Fire_Incident" selected="True" />
+                <SelectField field="Count_Incident" selected="True" />
+                <SelectField field="Count_Incident_1" selected="True" />
+                <SelectField field="Count_Crime" selected="True" />
+                <SelectField field="Count_Crime_1" selected="True" />
+                <SelectField field="Sum_ETAGE_HORS_SOL" selected="True" />
+                <SelectField field="Sum_NOMBRE_LOGEMENT" selected="True" />
+                <SelectField field="Building_Life" selected="True" />
+                <SelectField field="Sum_SUPERFICIE_TERRAIN" selected="True" />
+                <SelectField field="Sum_SUPERFICIE_BATIMENT" selected="True" />
+                <SelectField field="SpatialObj" selected="True" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="204">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="2960" y="738" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>[Count_Incident_1] != Null() AND [Count_Crime_1] != Null()</Expression>
+              <Mode>Custom</Mode>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[Count_Incident_1] != Null() AND [Count_Crime_1] != Null()</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="177">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="53" y="617" width="973" height="281" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Crime dataset</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="37">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="78" y="678" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\interventionscitoyendo.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>,</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>interventionscitoyendo.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="CATEGORIE" size="254" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\interventionscitoyendo.csv" type="V_String" />
+                <Field name="DATE" size="254" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\interventionscitoyendo.csv" type="V_String" />
+                <Field name="QUART" size="254" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\interventionscitoyendo.csv" type="V_String" />
+                <Field name="PDQ" size="254" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\interventionscitoyendo.csv" type="V_String" />
+                <Field name="X" size="254" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\interventionscitoyendo.csv" type="V_String" />
+                <Field name="Y" size="254" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\interventionscitoyendo.csv" type="V_String" />
+                <Field name="LONGITUDE" size="254" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\interventionscitoyendo.csv" type="V_String" />
+                <Field name="LATITUDE" size="254" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\interventionscitoyendo.csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="66">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+            <Position x="198" y="678" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Fields>
+                <Field field="CATEGORIE" selected="True" />
+                <Field field="DATE" selected="True" />
+                <Field field="QUART" selected="True" />
+                <Field field="PDQ" selected="True" />
+                <Field field="X" selected="True" />
+                <Field field="Y" selected="True" />
+                <Field field="LONGITUDE" selected="True" />
+                <Field field="LATITUDE" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </Fields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="CATEGORIE" size="32" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\interventionscitoyendo.csv" type="V_String" />
+                <Field name="DATE" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\interventionscitoyendo.csv" type="Date" />
+                <Field name="QUART" size="4" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\interventionscitoyendo.csv" type="String" />
+                <Field name="PDQ" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\interventionscitoyendo.csv" type="Byte" />
+                <Field name="X" size="18" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\interventionscitoyendo.csv" type="V_String" />
+                <Field name="Y" size="18" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\interventionscitoyendo.csv" type="V_String" />
+                <Field name="LONGITUDE" size="18" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\interventionscitoyendo.csv" type="String" />
+                <Field name="LATITUDE" size="18" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\interventionscitoyendo.csv" type="String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+        </Node>
+        <Node ToolID="72">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="318" y="678" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>[LONGITUDE] != "1" AND [LATITUDE] != "1"</Expression>
+              <Mode>Custom</Mode>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[LONGITUDE] != "1" AND [LATITUDE] != "1"</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="73">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="642" y="666" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="CATEGORIE" selected="True" />
+                <SelectField field="DATE" selected="False" />
+                <SelectField field="Year" selected="True" />
+                <SelectField field="Month" selected="True" />
+                <SelectField field="QUART" selected="False" />
+                <SelectField field="PDQ" selected="False" />
+                <SelectField field="X" selected="False" />
+                <SelectField field="Y" selected="False" />
+                <SelectField field="LONGITUDE" selected="True" />
+                <SelectField field="LATITUDE" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="106">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.CreatePoints.CreatePoints">
+            <Position x="750" y="666" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Fields fieldX="LONGITUDE" fieldY="LATITUDE" />
+              <Mode>Double</Mode>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxCreatePoints" />
+        </Node>
+        <Node ToolID="108">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="78" y="798" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="12">C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp</File>
+              <FormatSpecificOptions>
+                <Projection />
+                <AllStrings>False</AllStrings>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>LIMADMIN.shp</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="MUNID" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="Int32" />
+                <Field name="CODEID" size="20" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="V_WString" />
+                <Field name="CODEMAMROT" size="10" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="WString" />
+                <Field name="NOM" size="100" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="V_WString" />
+                <Field name="TYPE" size="20" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="V_WString" />
+                <Field name="ABREV" size="10" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="WString" />
+                <Field name="NUM" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="Int32" />
+                <Field name="AIRE" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="Double" />
+                <Field name="PERIM" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="Double" />
+                <Field name="SpatialObj" size="2147483647" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="SpatialObj" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="109">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+            <Position x="197" y="798" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Fields>
+                <Field field="CODEID" selected="True" />
+                <Field field="CODEMAMROT" selected="True" />
+                <Field field="NOM" selected="True" />
+                <Field field="TYPE" selected="True" />
+                <Field field="ABREV" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </Fields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="MUNID" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="Int32" />
+                <Field name="CODEID" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="Byte" />
+                <Field name="CODEMAMROT" size="5" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="String" />
+                <Field name="NOM" size="40" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="V_String" />
+                <Field name="TYPE" size="14" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="String" />
+                <Field name="ABREV" size="2" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="String" />
+                <Field name="NUM" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="Int32" />
+                <Field name="AIRE" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="Double" />
+                <Field name="PERIM" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="Double" />
+                <Field name="SpatialObj" size="2147483647" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="SpatialObj" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+        </Node>
+        <Node ToolID="110">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="642" y="798" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="CODEMAMROT" selected="True" />
+                <SelectField field="NOM" selected="True" />
+                <SelectField field="SpatialObj" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="111">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.SpatialMatch.SpatialMatch">
+            <Position x="834" y="726" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Target SpatialObj="Centroid" />
+              <Universe SpatialObj="SpatialObj" />
+              <Method method="Within" />
+              <SelectConfiguration>
+                <Configuration outputConnection="Matched">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Target_CATEGORIE" selected="True" input="Target_" />
+                    <SelectField field="Target_Year" selected="True" input="Target_" />
+                    <SelectField field="Target_Month" selected="True" input="Target_" />
+                    <SelectField field="Universe_CODEMAMROT" selected="True" input="Universe_" />
+                    <SelectField field="Universe_NOM" selected="True" input="Universe_" />
+                    <SelectField field="*Unknown" selected="False" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Centroid Where Target Within Universe SpatialObj</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSpatialMatch" />
+        </Node>
+        <Node ToolID="124">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="474" y="666" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="DateTimeYear([DATE])" field="Year" size="8" type="Int64" />
+                <FormulaField expression="DateTimeMonth([DATE])" field="Month" size="8" type="Int64" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[Year = DateTimeYear([DATE])
+Month = DateTimeMonth([DATE])
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="125">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="942" y="714" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="CODEMAMROT" action="GroupBy" rename="CODEMAMROT" />
+                <SummarizeField field="NOM" action="GroupBy" rename="NOM" />
+                <SummarizeField field="Year" action="GroupBy" rename="Year" />
+                <SummarizeField field="Month" action="GroupBy" rename="Month" />
+                <SummarizeField field="CATEGORIE" action="Count" rename="Count" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="178">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="53" y="929" width="1609" height="305" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Property assessment dataset</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="34">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="78" y="990" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="12">C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\uniteevaluationfonciere.shp</File>
+              <FormatSpecificOptions>
+                <Projection />
+                <AllStrings>False</AllStrings>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>uniteevaluationfonciere.shp</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="ID_UEV" size="80" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\uniteevaluationfonciere.shp" type="V_WString" />
+                <Field name="CIVIQUE_DE" size="80" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\uniteevaluationfonciere.shp" type="V_WString" />
+                <Field name="CIVIQUE_FI" size="80" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\uniteevaluationfonciere.shp" type="V_WString" />
+                <Field name="NOM_RUE" size="80" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\uniteevaluationfonciere.shp" type="V_WString" />
+                <Field name="SUITE_DEBU" size="80" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\uniteevaluationfonciere.shp" type="V_WString" />
+                <Field name="MUNICIPALI" size="80" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\uniteevaluationfonciere.shp" type="V_WString" />
+                <Field name="ETAGE_HORS" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\uniteevaluationfonciere.shp" type="Int64" />
+                <Field name="NOMBRE_LOG" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\uniteevaluationfonciere.shp" type="Int64" />
+                <Field name="ANNEE_CONS" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\uniteevaluationfonciere.shp" type="Int64" />
+                <Field name="CODE_UTILI" size="80" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\uniteevaluationfonciere.shp" type="V_WString" />
+                <Field name="LIBELLE_UT" size="154" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\uniteevaluationfonciere.shp" type="V_WString" />
+                <Field name="CATEGORIE_" size="80" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\uniteevaluationfonciere.shp" type="V_WString" />
+                <Field name="MATRICULE8" size="80" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\uniteevaluationfonciere.shp" type="V_WString" />
+                <Field name="SUPERFICIE" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\uniteevaluationfonciere.shp" type="Int64" />
+                <Field name="SUPERFIC_1" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\uniteevaluationfonciere.shp" type="Int64" />
+                <Field name="NO_ARROND_" size="80" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\uniteevaluationfonciere.shp" type="V_WString" />
+                <Field name="SpatialObj" size="2147483647" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\uniteevaluationfonciere.shp" type="SpatialObj" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="65">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+            <Position x="197" y="990" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Fields>
+                <Field field="ID_UEV" selected="True" />
+                <Field field="CIVIQUE_DE" selected="True" />
+                <Field field="CIVIQUE_FI" selected="True" />
+                <Field field="NOM_RUE" selected="True" />
+                <Field field="SUITE_DEBU" selected="True" />
+                <Field field="MUNICIPALI" selected="True" />
+                <Field field="CODE_UTILI" selected="True" />
+                <Field field="LIBELLE_UT" selected="True" />
+                <Field field="CATEGORIE_" selected="True" />
+                <Field field="MATRICULE8" selected="True" />
+                <Field field="NO_ARROND_" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </Fields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="ID_UEV" size="8" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\uniteevaluationfonciere.shp" type="String" />
+                <Field name="CIVIQUE_DE" size="5" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\uniteevaluationfonciere.shp" type="String" />
+                <Field name="CIVIQUE_FI" size="5" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\uniteevaluationfonciere.shp" type="String" />
+                <Field name="NOM_RUE" size="64" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\uniteevaluationfonciere.shp" type="V_String" />
+                <Field name="SUITE_DEBU" size="7" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\uniteevaluationfonciere.shp" type="V_String" />
+                <Field name="MUNICIPALI" size="2" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\uniteevaluationfonciere.shp" type="String" />
+                <Field name="ETAGE_HORS" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\uniteevaluationfonciere.shp" type="Int64" />
+                <Field name="NOMBRE_LOG" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\uniteevaluationfonciere.shp" type="Int64" />
+                <Field name="ANNEE_CONS" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\uniteevaluationfonciere.shp" type="Int64" />
+                <Field name="CODE_UTILI" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\uniteevaluationfonciere.shp" type="Int16" />
+                <Field name="LIBELLE_UT" size="145" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\uniteevaluationfonciere.shp" type="V_String" />
+                <Field name="CATEGORIE_" size="14" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\uniteevaluationfonciere.shp" type="String" />
+                <Field name="MATRICULE8" size="23" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\uniteevaluationfonciere.shp" type="String" />
+                <Field name="SUPERFICIE" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\uniteevaluationfonciere.shp" type="Int64" />
+                <Field name="SUPERFIC_1" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\uniteevaluationfonciere.shp" type="Int64" />
+                <Field name="NO_ARROND_" size="5" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\uniteevaluationfonciere.shp" type="String" />
+                <Field name="SpatialObj" size="2147483647" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\uniteevaluationfonciere.shp" type="SpatialObj" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+        </Node>
+        <Node ToolID="67">
+          <GuiSettings>
+            <Position x="293" y="990" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Check Box (135)">False</Value>
+              <Value name="Check Box (136)">False</Value>
+              <Value name="List Box (11)">"CIVIQUE_DE","CIVIQUE_FI","NOM_RUE"</Value>
+              <Value name="Check Box (84)">False</Value>
+              <Value name="Check Box (117)">False</Value>
+              <Value name="Check Box (15)">True</Value>
+              <Value name="Check Box (109)">False</Value>
+              <Value name="Check Box (122)">False</Value>
+              <Value name="Check Box (53)">False</Value>
+              <Value name="Check Box (58)">False</Value>
+              <Value name="Check Box (70)">False</Value>
+              <Value name="Check Box (77)">False</Value>
+              <Value name="Drop Down (81)">upper</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Cleanse.yxmc" />
+        </Node>
+        <Node ToolID="68">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="402" y="990" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>NOT (IsNull([ETAGE_HORS])OR IsNull([NOMBRE_LOG])OR IsNull([SUPERFIC_1]))</Expression>
+              <Mode>Custom</Mode>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>NOT (IsNull([ETAGE_HORS])OR IsNull([NOMBRE_LOG])OR IsNull([SUPERFIC_1]))</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="69">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="558" y="978" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="ID_UEV" selected="True" />
+                <SelectField field="ETAGE_HORS" selected="True" />
+                <SelectField field="NOMBRE_LOG" selected="True" />
+                <SelectField field="ANNEE_CONS" selected="True" />
+                <SelectField field="LIBELLE_UT" selected="True" />
+                <SelectField field="SUPERFICIE" selected="True" />
+                <SelectField field="SUPERFIC_1" selected="True" />
+                <SelectField field="SpatialObj" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="117">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="78" y="1134" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="12">C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp</File>
+              <FormatSpecificOptions>
+                <Projection />
+                <AllStrings>False</AllStrings>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>LIMADMIN.shp</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="MUNID" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="Int32" />
+                <Field name="CODEID" size="20" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="V_WString" />
+                <Field name="CODEMAMROT" size="10" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="WString" />
+                <Field name="NOM" size="100" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="V_WString" />
+                <Field name="TYPE" size="20" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="V_WString" />
+                <Field name="ABREV" size="10" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="WString" />
+                <Field name="NUM" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="Int32" />
+                <Field name="AIRE" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="Double" />
+                <Field name="PERIM" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="Double" />
+                <Field name="SpatialObj" size="2147483647" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="SpatialObj" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="118">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+            <Position x="198" y="1134" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Fields>
+                <Field field="CODEID" selected="True" />
+                <Field field="CODEMAMROT" selected="True" />
+                <Field field="NOM" selected="True" />
+                <Field field="TYPE" selected="True" />
+                <Field field="ABREV" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </Fields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="MUNID" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="Int32" />
+                <Field name="CODEID" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="Byte" />
+                <Field name="CODEMAMROT" size="5" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="String" />
+                <Field name="NOM" size="40" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="V_String" />
+                <Field name="TYPE" size="14" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="String" />
+                <Field name="ABREV" size="2" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="String" />
+                <Field name="NUM" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="Int32" />
+                <Field name="AIRE" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="Double" />
+                <Field name="PERIM" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="Double" />
+                <Field name="SpatialObj" size="2147483647" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="SpatialObj" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+        </Node>
+        <Node ToolID="119">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="558" y="1134" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="CODEMAMROT" selected="True" />
+                <SelectField field="SpatialObj" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="120">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.SpatialMatch.SpatialMatch">
+            <Position x="690" y="1038" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Target SpatialObj="SpatialObj" />
+              <Universe SpatialObj="SpatialObj" />
+              <Method method="Within" />
+              <SelectConfiguration>
+                <Configuration outputConnection="Matched">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Target_ID_UEV" selected="True" input="Target_" />
+                    <SelectField field="Target_CIVIQUE_DE" selected="True" input="Target_" />
+                    <SelectField field="Target_CIVIQUE_FI" selected="True" input="Target_" />
+                    <SelectField field="Target_NOM_RUE" selected="True" input="Target_" />
+                    <SelectField field="Target_MUNICIPALI" selected="True" input="Target_" />
+                    <SelectField field="Target_ETAGE_HORS" selected="True" input="Target_" />
+                    <SelectField field="Target_NOMBRE_LOG" selected="True" input="Target_" />
+                    <SelectField field="Target_ANNEE_CONS" selected="True" input="Target_" />
+                    <SelectField field="Target_LIBELLE_UT" selected="True" input="Target_" />
+                    <SelectField field="Target_CATEGORIE_" selected="True" input="Target_" />
+                    <SelectField field="Target_SUPERFICIE" selected="True" input="Target_" />
+                    <SelectField field="Target_SUPERFIC_1" selected="True" input="Target_" />
+                    <SelectField field="Target_SpatialObj" selected="True" input="Target_" />
+                    <SelectField field="Universe_CODEMAMROT" selected="True" input="Universe_" />
+                    <SelectField field="Universe_SpatialObj" selected="False" rename="Universe_SpatialObj" input="Universe_" />
+                    <SelectField field="*Unknown" selected="False" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>SpatialObj Where Target Within Universe SpatialObj</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSpatialMatch" />
+        </Node>
+        <Node ToolID="135">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="810" y="1026" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="IIF([ANNEE_CONS]&gt;2021, Null(), [ANNEE_CONS])" field="Annee_Replaced" size="8" type="Int64" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[Annee_Replaced = IIF([ANNEE_CONS]>2021, Null(), [ANNEE_CONS])
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="136">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="954" y="978" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="CODEMAMROT" action="GroupBy" rename="CODEMAMROT" />
+                <SummarizeField field="Annee_Replaced" action="Avg" rename="Avg_Annee_Replaced" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="137">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="954" y="1074" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Operator>IsNull</Operator>
+                <Field>Annee_Replaced</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2021-08-09 22:11:05</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <StartDate>2021-08-09 22:11:05</StartDate>
+                  <EndDate>2021-08-09 22:11:05</EndDate>
+                  <Operand>
+                  </Operand>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>IsNull([Annee_Replaced])</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="138">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="1098" y="990" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="CODEMAMROT" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="CODEMAMROT" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Left_CODEMAMROT" selected="True" input="Left_" />
+                    <SelectField field="Left_Avg_Annee_Replaced" selected="True" rename="Annee_Replaced" input="Left_" />
+                    <SelectField field="Right_ID_UEV" selected="True" input="Right_" />
+                    <SelectField field="Right_ETAGE_HORS" selected="True" input="Right_" />
+                    <SelectField field="Right_NOMBRE_LOG" selected="True" input="Right_" />
+                    <SelectField field="Right_ANNEE_CONS" selected="True" input="Right_" />
+                    <SelectField field="Right_LIBELLE_UT" selected="True" input="Right_" />
+                    <SelectField field="Right_SUPERFICIE" selected="True" input="Right_" />
+                    <SelectField field="Right_SUPERFIC_1" selected="True" input="Right_" />
+                    <SelectField field="Right_SpatialObj" selected="True" input="Right_" />
+                    <SelectField field="Right_CODEMAMROT" selected="False" rename="Right_CODEMAMROT" input="Right_" />
+                    <SelectField field="*Unknown" selected="False" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="139">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+            <Position x="1230" y="990" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ByName_ErrorMode>Warning</ByName_ErrorMode>
+              <ByName_OutputMode>All</ByName_OutputMode>
+              <Mode>ByName</Mode>
+              <SetOutputOrder value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+        </Node>
+        <Node ToolID="140">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+            <Position x="1350" y="990" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SortInfo locale="1033">
+                <Field field="CODEMAMROT" order="Ascending" />
+              </SortInfo>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>CODEMAMROT - Ascending</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+        </Node>
+        <Node ToolID="147">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="1470" y="990" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="CODEMAMROT" selected="True" />
+                <SelectField field="ID_UEV" selected="False" />
+                <SelectField field="ETAGE_HORS" selected="True" />
+                <SelectField field="NOMBRE_LOG" selected="True" />
+                <SelectField field="ANNEE_CONS" selected="False" />
+                <SelectField field="Annee_Replaced" selected="True" />
+                <SelectField field="LIBELLE_UT" selected="False" />
+                <SelectField field="SUPERFICIE" selected="True" />
+                <SelectField field="SUPERFIC_1" selected="True" />
+                <SelectField field="SpatialObj" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="149">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="1578" y="990" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="CODEMAMROT" action="GroupBy" rename="CODEMAMROT" />
+                <SummarizeField field="ETAGE_HORS" action="Sum" rename="Sum_ETAGE_HORS_SOL" />
+                <SummarizeField field="NOMBRE_LOG" action="Sum" rename="Sum_NOMBRE_LOGEMENT" />
+                <SummarizeField field="Annee_Replaced" action="Avg" rename="Avg_ANNEE_CONSTRUCTION" />
+                <SummarizeField field="SUPERFICIE" action="Sum" rename="Sum_SUPERFICIE_TERRAIN" />
+                <SummarizeField field="SUPERFIC_1" action="Sum" rename="Sum_SUPERFICIE_BATIMENT" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="179">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="53" y="1301" width="613" height="255" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Fire stations dataset</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="1">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="77" y="1350" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="12">C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\casernes.shp</File>
+              <FormatSpecificOptions>
+                <Projection />
+                <AllStrings>False</AllStrings>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>casernes.shp</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="CASERNE" size="80" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\casernes.shp" type="V_WString" />
+                <Field name="NO_CIVIQUE" size="80" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\casernes.shp" type="V_WString" />
+                <Field name="RUE" size="80" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\casernes.shp" type="V_WString" />
+                <Field name="LATITUDE" size="80" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\casernes.shp" type="V_WString" />
+                <Field name="LONGITUDE" size="80" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\casernes.shp" type="V_WString" />
+                <Field name="ARRONDISSE" size="80" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\casernes.shp" type="V_WString" />
+                <Field name="VILLE" size="80" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\casernes.shp" type="V_WString" />
+                <Field name="DATE_DEBUT" size="80" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\casernes.shp" type="V_WString" />
+                <Field name="DATE_FIN" size="80" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\casernes.shp" type="V_WString" />
+                <Field name="MTM8_X" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\casernes.shp" type="Double" />
+                <Field name="MTM8_Y" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\casernes.shp" type="Double" />
+                <Field name="SpatialObj" size="2147483647" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\casernes.shp" type="SpatialObj" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="58">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+            <Position x="198" y="1350" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Fields>
+                <Field field="CASERNE" selected="True" />
+                <Field field="NO_CIVIQUE" selected="True" />
+                <Field field="RUE" selected="True" />
+                <Field field="LATITUDE" selected="True" />
+                <Field field="LONGITUDE" selected="True" />
+                <Field field="ARRONDISSE" selected="True" />
+                <Field field="VILLE" selected="True" />
+                <Field field="DATE_DEBUT" selected="True" />
+                <Field field="DATE_FIN" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </Fields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="CASERNE" size="2" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\casernes.shp" type="String" />
+                <Field name="NO_CIVIQUE" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\casernes.shp" type="Int16" />
+                <Field name="RUE" size="33" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\casernes.shp" type="V_String" />
+                <Field name="LATITUDE" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\casernes.shp" type="Double" />
+                <Field name="LONGITUDE" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\casernes.shp" type="Double" />
+                <Field name="ARRONDISSE" size="40" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\casernes.shp" type="V_String" />
+                <Field name="VILLE" size="23" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\casernes.shp" type="V_String" />
+                <Field name="DATE_DEBUT" size="19" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\casernes.shp" type="String" />
+                <Field name="DATE_FIN" size="19" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\casernes.shp" type="V_String" />
+                <Field name="MTM8_X" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\casernes.shp" type="Double" />
+                <Field name="MTM8_Y" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\casernes.shp" type="Double" />
+                <Field name="SpatialObj" size="2147483647" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\casernes.shp" type="SpatialObj" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+        </Node>
+        <Node ToolID="59">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="318" y="1350" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="CASERNE" selected="True" />
+                <SelectField field="NO_CIVIQUE" selected="True" />
+                <SelectField field="RUE" selected="True" />
+                <SelectField field="LATITUDE" selected="True" />
+                <SelectField field="LONGITUDE" selected="True" />
+                <SelectField field="ARRONDISSE" selected="True" />
+                <SelectField field="VILLE" selected="True" />
+                <SelectField field="SpatialObj" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="100">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="78" y="1446" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="12">C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp</File>
+              <FormatSpecificOptions>
+                <Projection />
+                <AllStrings>False</AllStrings>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>LIMADMIN.shp</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="MUNID" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="Int32" />
+                <Field name="CODEID" size="20" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="V_WString" />
+                <Field name="CODEMAMROT" size="10" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="WString" />
+                <Field name="NOM" size="100" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="V_WString" />
+                <Field name="TYPE" size="20" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="V_WString" />
+                <Field name="ABREV" size="10" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="WString" />
+                <Field name="NUM" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="Int32" />
+                <Field name="AIRE" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="Double" />
+                <Field name="PERIM" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="Double" />
+                <Field name="SpatialObj" size="2147483647" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="SpatialObj" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="101">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+            <Position x="198" y="1446" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Fields>
+                <Field field="CODEID" selected="True" />
+                <Field field="CODEMAMROT" selected="True" />
+                <Field field="NOM" selected="True" />
+                <Field field="TYPE" selected="True" />
+                <Field field="ABREV" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </Fields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="MUNID" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="Int32" />
+                <Field name="CODEID" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="Byte" />
+                <Field name="CODEMAMROT" size="5" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="String" />
+                <Field name="NOM" size="40" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="V_String" />
+                <Field name="TYPE" size="14" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="String" />
+                <Field name="ABREV" size="2" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="String" />
+                <Field name="NUM" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="Int32" />
+                <Field name="AIRE" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="Double" />
+                <Field name="PERIM" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="Double" />
+                <Field name="SpatialObj" size="2147483647" source="File: C:\Users\Kiet\Desktop\Data Science\Course 5 YCBS 299 Data Science Capstone Project\Datasets\LIMADMIN.shp" type="SpatialObj" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+        </Node>
+        <Node ToolID="102">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="318" y="1446" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="CODEMAMROT" selected="True" />
+                <SelectField field="NOM" selected="True" />
+                <SelectField field="SpatialObj" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="103">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.SpatialMatch.SpatialMatch">
+            <Position x="474" y="1410" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Target SpatialObj="SpatialObj" />
+              <Universe SpatialObj="SpatialObj" />
+              <Method method="Within" />
+              <SelectConfiguration>
+                <Configuration outputConnection="Matched">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Target_CASERNE" selected="True" input="Target_" />
+                    <SelectField field="Target_SpatialObj" selected="True" input="Target_" />
+                    <SelectField field="Universe_CODEMAMROT" selected="True" input="Universe_" />
+                    <SelectField field="Universe_NOM" selected="True" input="Universe_" />
+                    <SelectField field="Universe_SpatialObj" selected="False" rename="Universe_SpatialObj" input="Universe_" />
+                    <SelectField field="*Unknown" selected="False" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>SpatialObj Where Target Within Universe SpatialObj</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSpatialMatch" />
+        </Node>
+        <Node ToolID="104">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="582" y="1398" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\Kiet\AppData\Local\Temp\Engine_7764_7f14eaf3e31c467ea978978875d86900_\Engine_7360_a40f8950b9cb4915a0c5408090c18a09_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Map</DefaultTab>
+                  <Hints>
+                    <Map>
+                      <BaseMap>Alteryx_Streets</BaseMap>
+                    </Map>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="189" Connection="Output" />
+      <Destination ToolID="190" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="190" Connection="Output" />
+      <Destination ToolID="191" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="191" Connection="Output" />
+      <Destination ToolID="193" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="196" Connection="Output" />
+      <Destination ToolID="193" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="192" Connection="Output" />
+      <Destination ToolID="195" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="193" Connection="Output" />
+      <Destination ToolID="127" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="115" Connection="Output" />
+      <Destination ToolID="127" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="125" Connection="Output" />
+      <Destination ToolID="127" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="193" Connection="Output" />
+      <Destination ToolID="194" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="195" Connection="Output" />
+      <Destination ToolID="196" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="90" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="45" Connection="Output" />
+      <Destination ToolID="46" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="46" Connection="Output" />
+      <Destination ToolID="50" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="50" Connection="Output26" />
+      <Destination ToolID="83" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="83" Connection="Output" />
+      <Destination ToolID="97" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="75" Connection="Output" />
+      <Destination ToolID="97" Connection="Universe" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="90" Connection="True" />
+      <Destination ToolID="45" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="44" Connection="Output" />
+      <Destination ToolID="71" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="71" Connection="Output" />
+      <Destination ToolID="75" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="97" Connection="Matched" />
+      <Destination ToolID="115" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="127" Connection="Output" />
+      <Destination ToolID="129" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="129" Connection="Output26" />
+      <Destination ToolID="131" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="131" Connection="Output" />
+      <Destination ToolID="153" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="153" Connection="True" />
+      <Destination ToolID="154" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="153" Connection="False" />
+      <Destination ToolID="158" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="154" Connection="Output" />
+      <Destination ToolID="155" Connection="Input2" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="155" Connection="Output26" />
+      <Destination ToolID="156" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="158" Connection="Output" />
+      <Destination ToolID="156" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="156" Connection="Output" />
+      <Destination ToolID="159" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="159" Connection="Output" />
+      <Destination ToolID="162" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="149" Connection="Output" />
+      <Destination ToolID="162" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="162" Connection="Join" />
+      <Destination ToolID="167" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="166" Connection="Output" />
+      <Destination ToolID="167" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="164" Connection="Output" />
+      <Destination ToolID="165" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="165" Connection="Output" />
+      <Destination ToolID="166" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="167" Connection="Join" />
+      <Destination ToolID="174" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="171" Connection="Output" />
+      <Destination ToolID="172" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="171" Connection="Correlation Matrix" />
+      <Destination ToolID="173" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="174" Connection="Output" />
+      <Destination ToolID="175" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="175" Connection="Output" />
+      <Destination ToolID="197" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="197" Connection="Output" />
+      <Destination ToolID="199" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="199" Connection="Output" />
+      <Destination ToolID="204" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="202" Connection="Output" />
+      <Destination ToolID="180" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="202" Connection="Output" />
+      <Destination ToolID="171" Connection="Data Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="204" Connection="True" />
+      <Destination ToolID="202" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Output" />
+      <Destination ToolID="66" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="66" Connection="Output" />
+      <Destination ToolID="72" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="72" Connection="True" />
+      <Destination ToolID="124" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="73" Connection="Output" />
+      <Destination ToolID="106" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="106" Connection="Output" />
+      <Destination ToolID="111" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="110" Connection="Output" />
+      <Destination ToolID="111" Connection="Universe" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="108" Connection="Output" />
+      <Destination ToolID="109" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="109" Connection="Output" />
+      <Destination ToolID="110" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="111" Connection="Matched" />
+      <Destination ToolID="125" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="124" Connection="Output" />
+      <Destination ToolID="73" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Output" />
+      <Destination ToolID="65" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="65" Connection="Output" />
+      <Destination ToolID="67" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="67" Connection="Output26" />
+      <Destination ToolID="68" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="68" Connection="True" />
+      <Destination ToolID="69" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="69" Connection="Output" />
+      <Destination ToolID="120" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="119" Connection="Output" />
+      <Destination ToolID="120" Connection="Universe" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="117" Connection="Output" />
+      <Destination ToolID="118" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="118" Connection="Output" />
+      <Destination ToolID="119" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="120" Connection="Matched" />
+      <Destination ToolID="135" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="135" Connection="Output" />
+      <Destination ToolID="136" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="135" Connection="Output" />
+      <Destination ToolID="137" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="136" Connection="Output" />
+      <Destination ToolID="138" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="137" Connection="True" />
+      <Destination ToolID="138" Connection="Right" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="137" Connection="False" />
+      <Destination ToolID="139" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="138" Connection="Join" />
+      <Destination ToolID="139" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="139" Connection="Output" />
+      <Destination ToolID="140" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="140" Connection="Output" />
+      <Destination ToolID="147" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="147" Connection="Output" />
+      <Destination ToolID="149" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="58" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="58" Connection="Output" />
+      <Destination ToolID="59" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="59" Connection="Output" />
+      <Destination ToolID="103" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="102" Connection="Output" />
+      <Destination ToolID="103" Connection="Universe" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="100" Connection="Output" />
+      <Destination ToolID="101" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="101" Connection="Output" />
+      <Destination ToolID="102" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="103" Connection="Matched" />
+      <Destination ToolID="104" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Project_20210831</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="e764d003-31d1-4cc2-b9b7-dec023c3807a" />
+      <Telemetry>
+        <PreviousWorkflowId value="fca10158-869d-41d1-a6e6-331a4c5f689a" />
+        <OriginWorkflowId value="51838faf-1f9e-4e62-9531-12d850094122" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
